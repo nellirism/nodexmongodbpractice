@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV !== 'production') {
     // require('dotenv').config({path: 'nodexmongodbpractice/.env'})
-    require('dotenv').load()
+    require('dotenv').config()
 }
 
 const express = require('express')
